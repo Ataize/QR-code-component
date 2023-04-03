@@ -3,32 +3,30 @@
   font-family: "Caveat", cursive;
   font-family: "Poppins", sans-serif;
 }
-body {
+.page {
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
   display: flex;
-
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  main {
+  .container {
     width: 300px;
-    height: 500px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 5%;
     padding: 16px;
 
-    img {
+    .image-qr-code {
       max-width: 270px;
       border-radius: 5%;
     }
     div {
       margin: 16px;
-      h1 {
+      .title {
         color: hsl(218, 44%, 22%);
         font-size: 18px;
       }
-      p {
+      .description {
         color: hsl(220, 15%, 55%);
       }
     }
@@ -36,7 +34,6 @@ body {
   footer {
     .attribution {
       font-size: 11px;
-      text-align: center;
       a {
         color: hsl(228, 45%, 44%);
         text-decoration: none;
