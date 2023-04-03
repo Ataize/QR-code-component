@@ -4,20 +4,21 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-#overview
+# Overview
 
 - My first Frontend Mentor challenge is to build out this QR code component and get it looking as close to the design as possible.
 
-#my-process
+# My-process
 
 - This project helped me to remember basics of HTML an CSS and practice using the SASS feature
 
-#built-with
+# Built-with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - SASS
 
-#author
+# Author
+
 -Ataíze Feitosa Linkedin: https://www.linkedin.com/in/ataizefeitosa/

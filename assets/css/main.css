@@ -4,40 +4,42 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
+.page {
   background-color: hsl(212deg, 45%, 89%);
   height: 100vh;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
-body main {
+.page .container {
   width: 300px;
-  height: 500px;
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 5%;
   padding: 16px;
 }
-body main img {
+.page .container .image-qr-code {
   max-width: 270px;
   border-radius: 5%;
 }
-body main div {
+.page .container div {
   margin: 16px;
 }
-body main div h1 {
+.page .container div .title {
   color: hsl(218deg, 44%, 22%);
-  font-size: 18px;
+  font-size: 15px;
 }
-body main div p {
+.page .container div .description {
   color: hsl(220deg, 15%, 55%);
+  font-size: 15px;
 }
-body footer .attribution {
+.page footer .attribution {
+  color: hsl(218deg, 44%, 22%);
   font-size: 11px;
-  text-align: center;
+  margin: 0;
 }
-body footer .attribution a {
+.page footer .attribution a {
   color: hsl(228deg, 45%, 44%);
   text-decoration: none;
   cursor: pointer;
